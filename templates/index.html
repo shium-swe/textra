@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon//favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <script defer src="/script.js"></script>
+    <title>textra</title>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="logo">
+            <h1 id="textra" class="animate__animated animate__fadeInDown">textra</h1>
+        </div>
+        <div class="container animate__animated animate__fadeInDown animate__slow animate__delay-1s">
+            <h1 id="title">Upload .wav file and transcribe</h1>
+            <form method="post" enctype="multipart/form-data">
+                <label class="btn animate__animated animate__fadeIn animate__slow animate__delay-3s">
+                    <input type="file" name="file" oninput="showTranscribe()"/>Upload
+                </label>
+                <input type="submit" value="Transcribe" class="transcribeBtn animate__animated animate__fadeIn animate__slow animate__delay-3s">
+            </div>
+        </div>
+    </div>
+
+    <div class="flex-container-2">
+        {% if transcript != "" %}
+        <div class="transcriptContainer animate__animated animate__fadeIn animate__slow animate__delay-4s"">
+            <h1 id="transcriptTitle">Transcript</h1>
+            <p id="transcriptText">{{transcript}}</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
