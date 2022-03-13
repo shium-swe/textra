@@ -11,4 +11,6 @@ A  minimal speech recognition web application.
 ### SAMPLE FILE BELOW
 [FILE](https://www.voiptroubleshooter.com/open_speech/american/OSR_us_000_0010_8k.wav)
 
-## VIEW [WEB APP ONLINE](http://shijih.pythonanywhere.com/)
+### Record your own .wav audio file [here](https://voicecoach.ai/voice-recorder)
+
+### View web app online [here](http://shijih.pythonanywhere.com/)
