@@ -14,3 +14,7 @@ A  minimal speech recognition web application.
 ### Record your own .wav audio file [here](https://voicecoach.ai/voice-recorder)
 
 ### View web app online [here](http://shijih.pythonanywhere.com/)
+
+### Here is what it looks like
+![textra](https://user-images.githubusercontent.com/87793166/158041244-6dcf7f8a-cc45-437e-959a-3563aac4d4d6.png)
+..don't judge me ヽ(ー_ー )ノ	
